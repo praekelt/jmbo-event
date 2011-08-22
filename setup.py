@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='panya-event',
+    name='jmbo-event',
     version='0.0.3',
-    description='Panya event app.',
+    description='Jmbo event app.',
     long_description = open('README.rst', 'r').read(),
     author='Praekelt Foundation',
     author_email='dev@praekelt.com',
     license='BSD',
-    url='http://github.com/praekelt/panya-event',
+    url='http://github.com/praekelt/jmbo-event',
     packages = find_packages(),
     install_requires = [
-        'panya',
+        'jmbo',
     ],
     include_package_data=True,
     classifiers = [

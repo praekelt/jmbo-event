@@ -2,9 +2,9 @@ from django.core.urlresolvers import reverse
 
 from cal.models import EntryItem
 from event.models import Event
-from panya.generic.views import GenericObjectList, GenericObjectDetail
-from panya.models import ModelBase
-from panya.view_modifiers import DateFieldIntervalViewModifier
+from jmbo.generic.views import GenericObjectList, GenericObjectDetail
+from jmbo.models import ModelBase
+from jmbo.view_modifiers import DateFieldIntervalViewModifier
 
 class ObjectList(GenericObjectList):
     def get_extra_context(self, *args, **kwargs):
